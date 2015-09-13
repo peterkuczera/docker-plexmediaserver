@@ -1,4 +1,5 @@
 plexmediaserver:
+  net: host
   build: .
   ports:
     - 32400:32400
