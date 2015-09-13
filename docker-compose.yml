@@ -1,7 +1,7 @@
 plexmediaserver:
   build: .
   ports:
-    - 80:32400
+    - 32400:32400
   volumes:
     - ./data:/var/lib/plexmediaserver/Library/Application Support/Plex Media Server
     - ./media:/media
